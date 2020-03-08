@@ -16,3 +16,9 @@ Proof of Concept on how to expose URI fields via Django REST Framework
     python manage.py runserver
 
 Visit http://localhost:8000/admin/
+
+### API
+
+    python manage.py runserver
+
+Visit http://localhost:8000/api/
