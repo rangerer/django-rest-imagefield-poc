@@ -1,6 +1,6 @@
-# Django REST Framework - URI test
+# Django REST Framework - ImageField Test
 
-Proof of Concept on how to expose URI fields via Django REST Framework
+Proof of Concept on how to expose the URI from an `models.ImageField` fields via Django REST Framework
 
 ## Usage
 
