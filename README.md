@@ -45,3 +45,5 @@ See also the following Django articles:
 The docker setup uses Gunicorn and Nginx to run the Django app.
 
 For further details see [Django Deployment with Gunicorn](https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/gunicorn/).
+
+A docker ENTRYPOINT (see [Docker Documentation](https://docs.docker.com/engine/reference/builder/#entrypoint)) is used to showcase this particular feature of docker and will take care of DB migrations.
