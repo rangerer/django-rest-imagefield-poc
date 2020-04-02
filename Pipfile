@@ -9,6 +9,7 @@ pylint = "*"
 [packages]
 django-rest-framework = "*"
 pillow = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"

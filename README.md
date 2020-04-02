@@ -36,3 +36,12 @@ This PoC showcases the concept of organizing tests into several modules
 See also the following Django articles:
 * [Writing and running tests](https://docs.djangoproject.com/en/3.0/topics/testing/overview/)
 * [Testing tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial05/)
+
+## Docker
+
+    pipenv lock --requirements >todos/requirements.txt
+    docker-compose up
+
+The docker setup uses Gunicorn and Nginx to run the Django app.
+
+For further details see [Django Deployment with Gunicorn](https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/gunicorn/).
