@@ -7,3 +7,4 @@ class TodoItem(models.Model):
     title = models.CharField(max_length=30)
     notes = models.TextField()
     image = models.ImageField()
+    due = models.DateField(null=True)
