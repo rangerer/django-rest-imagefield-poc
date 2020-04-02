@@ -22,3 +22,17 @@ Visit http://localhost:8000/admin/
     python manage.py runserver
 
 Visit http://localhost:8000/api/
+
+## Testing
+
+    python manage.py test
+
+This PoC showcases the concept of organizing tests into several modules
+
+* `todos/api/tests`
+  * `test_models`
+  * `test_views`
+
+See also the following Django articles:
+* [Writing and running tests](https://docs.djangoproject.com/en/3.0/topics/testing/overview/)
+* [Testing tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial05/)
