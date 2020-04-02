@@ -40,6 +40,7 @@ See also the following Django articles:
 ## Docker
 
     pipenv lock --requirements >todos/requirements.txt
+    ( cd todos && python manage.py collectstatic )
     docker-compose up
 
 The docker setup uses Gunicorn and Nginx to run the Django app.
