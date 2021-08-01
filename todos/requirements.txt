@@ -5,7 +5,7 @@
 #    pipenv lock --requirements
 #
 
--i https://pypi.org/simple/
+-i https://pypi.org/simple
 asgiref==3.4.1; python_version >= '3.6'
 django-rest-framework==0.1.0
 django==3.2.5; python_version >= '3.6'
